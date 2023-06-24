@@ -1,0 +1,71 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background-color: bisque;
+}
+main{
+    margin: 5px;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+    background: var(--color-pass);
+}
+
+.jest-lite-report__errors {
+    display: none
+}
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.video, .site-img{
+margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.site-title{
+    text-align: center;
+    color: red;
+}
+.nav-bar{
+background-color: beige;
+display: flex;
+}
+.nav-list{
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+}
+.nav-links{
+    padding: 20px;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: rgb(151, 212, 212);
+}
+a:hover{
+    background-color: azure;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
